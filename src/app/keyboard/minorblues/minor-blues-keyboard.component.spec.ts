@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { KeyboardComponent } from './keyboard.component';
+import { MinorBluesKeyboardComponent } from './minor-blues-keyboard.component';
 
-describe('KeyboardComponent', () => {
-  let component: KeyboardComponent;
-  let fixture: ComponentFixture<KeyboardComponent>;
+describe('MinorBluesKeyboardComponent', () => {
+  let component: MinorBluesKeyboardComponent;
+  let fixture: ComponentFixture<MinorBluesKeyboardComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ KeyboardComponent ]
+      declarations: [ MinorBluesKeyboardComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(KeyboardComponent);
+    fixture = TestBed.createComponent(MinorBluesKeyboardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

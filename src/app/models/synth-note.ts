@@ -1,5 +1,3 @@
-import 'rxjs/add/operator/filter';
-
 export class SynthNote {
   private static noteMappings = {
     'C0': 16.35, 'C#0': 17.32, 'Db0': 17.32, 'D0': 18.35, 'D#0': 19.45,
@@ -47,7 +45,8 @@ export class SynthNote {
     this.gainNode.gain.value = 0.2;
     this.gainNode.connect(audioBusNode);
     // TODO - externalize and control in one shot... Maybe
-    this.oscillator.type = waveform;
+    //figure out that the below code does
+    // this.oscillator.type = waveform;
     this.oscillator.start();
   }
 
